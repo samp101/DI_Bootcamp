@@ -1,0 +1,39 @@
+.header{
+    width: 100%;
+    height: 50%;
+}
+.left-bar{
+   
+    float:left;
+    max-width: 20%;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30PX;
+    max height: 40%;
+    
+
+}
+.right-bar{
+    
+    max-width: 60%;
+    float:right;
+    position:relative;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-right: 30PX;
+    
+    max height: 40%;
+    
+
+
+}
+
+#whole{
+    
+    bacground-color: blue;
+    
+    overflow:hidden;
+}
+body{
+    background-color: cornsilk;
+}
