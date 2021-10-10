@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+}
+
+
+body{
+    background-image: url(https://cdn.hiconsumption.com/wp-content/uploads/2021/01/Best-New-Motorcycles-Under-5000-0-Hero.jpg);
+    background-size: cover;
+}
+/* nav-bar */
+
+.nav{
+    max-width: 100%;
+    max-height: 500px;
+    background-color: black;
+    margin: 0px;
+    overflow:hidden;
+}
+ul{
+    float:right;
+}
+li{
+    float:left;
+    list-style-type: none;
+    margin: 20px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+
+}
+#icon1{
+    float: left;
+    color: white;
+    margin: 20px;
+}
+#icon1:hover{
+    background-color: rebeccapurple;
+    padding: 20px;
+    margin: 0px;
+}
+li:hover{
+    background-color: rebeccapurple;
+    padding: 20px;
+    margin: 0px;
+}
+
+/* Sign-in */
+
+#login{
+    height: 300px;
+    width: 250px;
+    background-color:rgba(0,0,0,0.85);
+    border-radius:5px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+#login h3 {
+    padding-bottom: 40px;
+}
+#login{
+    color: white;
+    padding:30px ;
+}
+#login label{
+    padding-bottom: 8px;
+    padding-top: 8px;
+    display: block;
+
+
+}
+#login input{
+    width: 230px;
+    border:0px;
+    padding: 6px 10px 6px 10px ;
+
+        
+    
+}
+#login button{
+ 
+    display: block;
+    height:30px;
+    width: 100%;
+    background-color: red;
+    border:none;
+    border-radius: 2px;
+    margin-top:90px;
+    font-weight: bold;
+
+ }
+
+/* footer */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    background-color: black;
+
+
+}
+
+
