@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <Style>
+        body{
+            margin:0;
+            background-image: url(data:image/jpeg;base64,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);
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        header{
+            height:20Vh;
+            width:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .container-nav{
+            height:20vh;
+            width:100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .info{
+
+            text-align: center;
+            }
+        .span-text{
+            color: #8D96D5;
+            font-size:30px;
+        
+
+        }
+        #container-section{
+            height:55vh;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .cards{
+            height:60%;
+            width:30%;
+            border-radius: 5px;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .card-text{
+            padding: 10px;
+
+        }
+        .bottom{
+            background-color: seagreen;
+            width: 100%;
+            height:40%;
+            display: flex;
+            justify-content: center;
+
+           
+            
+        }
+        .Head{
+            border-radius: 50%;
+            
+           
+        }
+        .card-a1 .bottom{
+            background-color: tomato;
+        }
+
+
+        .card-a2 .bottom{
+            background-color: violet;
+
+        }
+        .card-a3 .bottom{
+            background-color: turquoise;
+
+        }
+        .card-a2{
+            display: flex;
+            align-self: flex-end ;
+            flex-direction: column;
+            
+        }
+
+        
+
+        
+
+
+    </Style>
+</head>
+<body>
+
+    <header>
+
+        <h1>
+            Shopify Powers ambitious entrepreneurs all over the world
+        </h1>
+
+    </header>
+
+    <nav>
+        
+        <div class="container-nav">
+            <div class="info a1">
+
+                <span class = "span-text">500,000</span> 
+                <p> Powered by Shopify</p>
+            
+            </div>
+            
+            <div class="info a2">
+
+                <span class = "span-text"> 1,000,000+ </span>
+                <p> Active Users 
+            
+            </div>
+            
+            <div class="info a3">
+
+                <span class = "span-text">$46B+</span>
+                <p>Sold on Shopify</p>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <section>
+
+        <div id="container-section">
+            <div class="cards card-a1">
+                
+                <DIV class = "card-text">
+                    liquet vel augue sit amet lacinia. Nulla vel nunc sed dolor finibus dictum. Vivamus dictum tempus sem,
+                </DIV>
+                <div class="bottom"><img class="Head" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSDHE4cqfpBkNyFf_pRiel8NW5_3NT1azqqjDhY2VerLt8g2OEswY5YjRQpN1Zxyt_zWo&usqp=CAU" alt="head" width="70px" height="50px"></div>
+            </div>
+
+            <div class="cards card-a2">
+                
+                <DIV class = "card-text">
+                    liquet vel augue sit amet lacinia. Nulla vel nunc sed dolor finibus dictum. Vivamus dictum tempus sem,
+                </DIV>
+                <div class="bottom"><img class="Head" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSDHE4cqfpBkNyFf_pRiel8NW5_3NT1azqqjDhY2VerLt8g2OEswY5YjRQpN1Zxyt_zWo&usqp=CAU" alt="head" width="70px" height="50px"></div>
+            </div>
+
+            <div class="cards card-a3">
+               <div class = "card-text">
+                    liquet vel augue sit amet lacinia. Nulla vel nunc sed dolor finibus dictum. Vivamus dictum tempus sem,
+                </div>
+                <div class="bottom"><img class="Head" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSDHE4cqfpBkNyFf_pRiel8NW5_3NT1azqqjDhY2VerLt8g2OEswY5YjRQpN1Zxyt_zWo&usqp=CAU" alt="head"  width="70px" height="50px"></div>
+            </div>
+        </div>
+
+    </section>
+    
+
+
+    
+</body>
+</html>
