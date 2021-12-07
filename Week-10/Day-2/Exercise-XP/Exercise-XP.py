@@ -1,16 +1,16 @@
 
 
-'''
-Here I am importing just the whole module and I must use the module name when calling the function
-'''
+# '''
+# Here I am importing just the whole module and I must use the module name when calling the function
+# '''
 
 # import operators
 
 # print(operators.addOperater(5,6))
 
-'''
-Here I am importing just the functions from a module
-'''
+# '''
+# Here I am importing just the functions from a module
+# '''
 # from operators import addOperater, divideOperator
 
 # print(addOperater(33,66))
@@ -34,7 +34,7 @@ Here I am importing just the functions from a module
 # print(opp.addOperater(100,5))
 # print(opp.divideOperator(100,5))
 
-# Q2
+# # Q2
 
 # import random
 
@@ -48,17 +48,17 @@ Here I am importing just the functions from a module
 # get_user_input()
 
 
-# Q3
-'''
-good description
-https://www.javatpoint.com/python-program-to-generate-a-random-string
-'''
-import string
-import random
+# # Q3
+# '''
+# good description
+# https://www.javatpoint.com/python-program-to-generate-a-random-string
+# '''
+# import string
+# import random
 
-s = 5
+# s = 5
 
-ran = "".join(random.choices(string.ascii_letters,  k = s)) 
+# ran = "".join(random.choices(string.ascii_letters,  k = s)) 
 
-print(ran)
+# print(ran)
 
